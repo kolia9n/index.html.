@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gourmet Journey</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Experience Gourmet Dining in the Comfort of Your Home</h2>
+        <button onclick="document.location.href='#booking'">Book Your Exclusive Dining Experience</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Gourmet Journey, where we bring the luxury of a high-end restaurant to your home. Our chef, with extensive experience in fine dining, is dedicated to creating unforgettable culinary experiences.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Fine Dining Experience</h3>
+            <p>Enjoy a personalized fine dining experience with customized menus and themes.</p>
+        </div>
+        <div class="service">
+            <h3>Virtual Cooking Classes</h3>
+            <p>Join live or pre-recorded cooking classes to learn from our expert chef.</p>
+        </div>
+        <div class="service">
+            <h3>Events and Private Parties</h3>
+            <p>Let us cater your special events with custom menu packages.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Sample Menu</h2>
+        <ul>
+            <li>Amuse-Bouche: Truffle-infused foie gras mousse with balsamic reduction</li>
+            <li>Starter: Seared scallops with yuzu and wasabi dressing</li>
+            <li>Main Course: Sous-vide beef tenderloin with red wine jus, truffle mashed potatoes, and seasonal vegetables</li>
+            <li>Palate Cleanser: Champagne sorbet with edible gold leaf</li>
+            <li>Dessert: Chocolate fondant with molten center, served with vanilla bean ice cream and fresh berries</li>
+            <li>Petit Fours: Assorted handmade chocolates and macarons</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="image1.jpg" alt="Dish 1">
+            <img src="image2.jpg" alt="Dish 2">
+            <img src="image3.jpg" alt="Dish 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: contact@gourmetjourney.com</p>
+            <p>Phone: +123 456 7890</p>
+            <div class="social-media">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gourmet Journey. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
