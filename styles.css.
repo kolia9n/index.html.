@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section#home {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#home h2 {
+    font-size: 2.5em;
+}
+
+section#home button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section#about, section#services, section#menu, section#gallery, section#contact {
+    background-color: #f7f7f7;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-images img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p, .social-media a {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
